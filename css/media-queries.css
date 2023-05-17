@@ -1,0 +1,460 @@
+@media (min-width: 576px) {
+    .header-nav a i {
+        display: none;
+    }
+
+    .item-menu {
+        display: flex;
+        width: 18em !important;
+        margin-top: 5px;
+        font-size: 20px !important;
+    }
+
+    .intro-container-pic {
+        width: 180px !important;
+        height: 180px !important;
+    }
+
+    .intro-conrainer-info-h2 {
+        font-size: 2em !important;
+    }
+
+    .intro-conrainer-info-p {
+        font-size: 1.6em !important;
+    }
+
+    .intro-container-social-nav {
+        width: 16em !important;
+    }
+
+    .telegram,
+    .instagram,
+    .linkedin,
+    .github,
+    .google {
+        font-size: 2em !important;
+    }
+
+    .btn {
+        padding: 14px 26px;
+    }
+
+    .about {
+        padding: 4em 6em !important;
+    }
+
+    .bio-items {
+        width: 65vw !important;
+    }
+
+    .bio-items ul li {
+        font-size: 3.8vw !important;
+    }
+
+    .about-info p {
+        font-size: 3vw !important;
+    }
+
+    .skill-interest {
+        padding: 4em 6em !important;
+    }
+
+    .skill ul li {
+        font-size: 3vw !important;
+    }
+
+    .interest ul li {
+        font-size: 3vw !important;
+    }
+
+    .experience-education {
+        padding: 4em 6em !important;
+    }
+
+    .experience-education h4,
+    span {
+        font-size: 3vw !important;
+    }
+
+    .education {
+        margin-bottom: 6vw !important;
+    }
+
+    .portfolio {
+        padding: 4em 6em;
+    }
+
+    .portfolio h4 {
+        font-size: 3.5vw !important;
+    }
+
+    .portfolio p {
+        font-size: 3vw !important;
+    }
+
+    .contact {
+        padding: 4em 6em;
+    }
+
+    textarea {
+        margin-bottom: 6vw !important;
+    }
+}
+
+
+
+
+@media (min-width: 768px) {
+
+    .item-menu {
+        width: 18em !important;
+        font-size: 23px !important;
+        margin: 0 !important;
+    }
+
+    .about-info h2 {
+        font-size: 3.8vw !important;
+    }
+
+    .about-info p {
+        font-size: 3vw !important;
+    }
+
+    .bio-items ul li {
+        font-size: 3vw !important;
+    }
+
+    .container-about-bio h2 {
+        font-size: 3vw !important;
+    }
+
+    .skill-interest {
+        flex-direction: row !important;
+    }
+
+    .skill {
+        height: 25vw !important;
+    }
+
+    .skill h2 {
+        font-size: 3vw !important;
+    }
+
+    .skill ul li {
+        font-size: 2.5vw !important;
+    }
+
+    .interest {
+        margin: 0 !important;
+        height: 25vw !important;
+        justify-content: flex-start !important;
+        margin-right: 9vw !important;
+    }
+
+    .interest ul {
+        height: 100% !important;
+
+    }
+
+    .interest ul li {
+        font-size: 2.5vw !important;
+    }
+
+    .interest h2 {
+        font-size: 3vw !important;
+    }
+
+    .experience-education {
+        flex-direction: row !important;
+        justify-content: space-between !important;
+    }
+
+    .experience-education h2 {
+        font-size: 3vw !important;
+
+    }
+
+    .experience-education h4,
+    span {
+        font-size: 2.5vw !important;
+    }
+
+    .portfolio h2 {
+        font-size: 3vw !important;
+    }
+
+    .portfolio h4 {
+        font-size: 2.5vw !important;
+    }
+
+    .portfolio p {
+        font-size: 2vw !important;
+    }
+
+    .contact h2 {
+        font-size: 3vw !important;
+    }
+
+    .contact {
+        flex-flow: row-reverse;
+    }
+
+    .contact h2 {
+        font-size: 2.5vw !important;
+    }
+
+    .contact form {
+        margin-bottom: 0 !important;
+    }
+
+    form input,
+    textarea {
+        font-size: 2vw !important;
+    }
+
+    textarea {
+        margin-bottom: 4vw !important;
+    }
+
+    .contact-info {
+        margin-right: 12vw !important;
+    }
+
+    .intro-container-social-nav {
+        width: 30vw !important;
+    }
+}
+
+
+
+@media (min-width: 992px) {
+    header nav {
+        padding: 0 4em;
+    }
+
+
+    .about-info h2 {
+        font-size: 3vw !important;
+    }
+
+    .about-info p {
+        font-size: 2.5vw !important;
+    }
+
+    .bio-items ul li {
+        font-size: 2.5vw !important;
+    }
+
+    .bio-items {
+        width: 50vw !important;
+    }
+
+    .container-about-bio h2 {
+        font-size: 3vw !important;
+    }
+
+    .skill-interest {
+        flex-direction: row !important;
+    }
+
+
+    .skill {
+        height: 20vw !important;
+    }
+
+    .skill h2 {
+        font-size: 2.5vw !important;
+    }
+
+    .skill ul li {
+        font-size: 2vw !important;
+    }
+
+    .interest {
+        height: 20vw !important;
+        margin-right: 20vw !important;
+    }
+
+    .interest h2 {
+        font-size: 2.5vw !important;
+    }
+
+    .interest ul li {
+        font-size: 2vw !important;
+    }
+
+    .experience-education h2 {
+        font-size: 2.5vw !important;
+
+    }
+
+    .experience-education h4,
+    span {
+        font-size: 2vw !important;
+    }
+
+    .experience {
+        margin: 0 !important;
+    }
+
+    .education-container {
+        margin-right: 10vw !important;
+    }
+
+    .portfolio-container {
+        flex-direction: row !important;
+    }
+
+    .cryptonews-container {
+        margin-left: 2vw;
+        margin-right: 2vw;
+    }
+
+    .portfolio div {
+        margin-bottom: 0 !important;
+    }
+
+    .portfolio h2 {
+        font-size: 2.5vw !important;
+        text-align: center;
+    }
+
+    .portfolio h4 {
+        font-size: 2vw !important;
+        text-align: center;
+    }
+
+    .portfolio p {
+        font-size: 1.5vw !important;
+    }
+
+    .contact-info {
+        margin-right: 18vw !important;
+    }
+
+    .intro-container-social-nav {
+        width: 20vw !important;
+    }
+
+}
+
+@media (min-width: 1200px) {
+
+    .about {
+        flex-direction: row !important;
+    }
+
+    .about {
+        padding: 2em 10em !important;
+    }
+
+    .about-info h2 {
+        font-size: 2.5vw !important;
+    }
+
+    .about-info p {
+        font-size: 1.6vw !important;
+        margin-bottom: 0 !important;
+    }
+
+    .bio-items {
+        width: 28vw !important;
+    }
+
+    .bio-items ul li {
+        font-size: 1.6vw !important;
+    }
+
+    .container-about-bio h2 {
+        font-size: 2.5vw !important;
+    }
+
+    .skill-interest {
+        padding: 2em 10em !important;
+    }
+
+    .skill {
+        height: 15vw !important;
+    }
+
+    .skill h2 {
+        font-size: 2.5vw !important;
+    }
+
+    .skill ul li {
+        font-size: 1.8vw !important;
+    }
+
+    .interest {
+        height: 15vw !important;
+        margin-right: 11vw !important;
+    }
+
+    .interest h2 {
+        font-size: 2vw !important;
+    }
+
+    .interest ul li {
+        font-size: 1.5vw !important;
+    }
+
+    .experience-education {
+        padding: 2em 10em !important;
+    }
+
+    .experience-education h2 {
+        font-size: 2vw !important;
+    }
+
+    .experience-education h4,
+    span {
+        font-size: 1.5vw !important;
+    }
+
+    .education-container {
+        margin-right: 4vw !important;
+    }
+
+    .education {
+        margin-bottom: 4vw !important;
+    }
+
+    .portfolio {
+        padding: 2em 10em !important;
+    }
+
+    .portfolio h2 {
+        font-size: 2vw !important;
+        text-align: center;
+    }
+
+    .portfolio h4 {
+        font-size: 1.5vw !important;
+        text-align: center;
+    }
+
+    .portfolio p {
+        font-size: 1vw !important;
+    }
+
+    .contact h2 {
+        font-size: 2vw !important;
+    }
+
+    .contact {
+        padding: 2em 10em !important;
+    }
+    form input,
+    textarea {
+        font-size: 1vw !important;
+    }
+
+    textarea {
+        margin-bottom: 2vw !important;
+    }
+
+    .intro-container-social-nav {
+        width: 15vw !important;
+    }
+
+}
