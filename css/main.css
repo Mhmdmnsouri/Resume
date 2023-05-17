@@ -2,7 +2,6 @@
   font-family: "playball";
   src: url(Playball-Regular.ttf) format("truetype");
 }
-
 html {
   scroll-behavior: smooth;
 }
@@ -11,7 +10,6 @@ header,
 body,
 footer {
   color: #FFFFFF;
-  font-family: 'playball' !important;
 }
 
 .m-p-0 {
@@ -30,8 +28,8 @@ body {
 
 section,
 footer {
-  background-color: #000000;
   padding: 2em 2.5em;
+  background-color: #000000;
 }
 
 .flex {
@@ -50,11 +48,11 @@ footer {
 }
 
 .btn {
-  padding: 12px 16px !important;
   margin: 0 10px;
+  padding: 12px 16px !important;
   border: 2px solid #FFFFFF;
-  color: #FFFFFF;
   border-radius: 20px;
+  color: #FFFFFF;
   cursor: pointer;
   outline: none;
   transition: all ease 0.3s;
@@ -67,32 +65,32 @@ footer {
 }
 
 .title {
+  position: relative;
   display: inline-block;
   margin: 0 0 1em 0 !important;
   font-size: 5vw;
-  position: relative;
 }
 
 .title:before {
   content: "";
   position: absolute;
   width: 50%;
-  background-color: #be2626;
   top: -5px;
   left: 0;
   border: 2px solid #be2626;
   border-radius: 20px 20px;
+  background-color: #be2626;
 }
 
 .title:after {
   content: "";
   position: absolute;
   width: 50%;
-  background-color: #be2626;
   bottom: -5px;
   right: 0;
   border-radius: 20px 20px;
   border: 2px solid #be2626;
+  background-color: #be2626;
 }
 
 .pic {
@@ -128,46 +126,40 @@ i {
 }
 
 body {
-  font-family: "playball";
-  letter-spacing: 2px;
   margin: 0;
   padding: 3em 0 0 0;
-  box-sizing: border-box;
   height: 100%;
+  box-sizing: border-box;
+  letter-spacing: 2px;
+  font-family: "playball";
 }
 
 header {
-  height: 3em;
   position: fixed;
   top: 0;
+  height: 3em;
   border-bottom: 1px solid #F9F5E7;
 }
-
 header nav {
-  justify-content: space-between !important;
   padding: 0 6vw;
+  justify-content: space-between !important;
 }
-
 header nav ul {
   display: none;
 }
-
 header nav ul :first-child li {
-  color: #FFFFFF !important;
-  background-color: #be2626;
   padding: 2px 8px;
   border-radius: 20px;
+  color: #FFFFFF !important;
+  background-color: #be2626;
 }
-
 header nav ul :first-child li:hover {
   color: #000000 !important;
   transform: translateY(0);
 }
-
 header nav ul li {
   transition: all ease 0.3s;
 }
-
 header nav ul li:hover {
   color: #be2626 !important;
 }
@@ -176,34 +168,28 @@ header nav ul li:hover {
   clip-path: polygon(0 0, 100% 0, 100% calc(100% - 50px), calc(50% + 50px) calc(100% - 50px), 50% 100%, calc(50% - 50px) calc(100% - 50px), 0 calc(100% - 50px));
   height: 32em;
 }
-
 .home .intro-container {
   flex-direction: column;
 }
-
 .home .intro-container .intro-container-pic {
   display: inline-block;
   width: 150px;
   height: 150px;
   margin-bottom: 20px;
 }
-
 .home .intro-container .intro-container-pic img {
   width: 100%;
   height: 100%;
   border-radius: 50%;
 }
-
 .home .intro-container .intro-conrainer-info {
-  margin-bottom: 25px;
   flex-direction: column !important;
+  margin-bottom: 25px;
 }
-
 .home .intro-container .intro-container-social-nav {
   width: 14em;
   margin-bottom: 40px;
 }
-
 .home .intro-container .intro-container-social-nav a li i:hover {
   transform: scale(1.2) !important;
 }
@@ -240,38 +226,32 @@ a li i {
   margin-top: -40px;
   margin-bottom: -5px;
 }
-
 .about .about-info p {
-  font-size: 5vw;
-  padding-right: 4vw;
   margin-top: 7px !important;
   margin-bottom: 7vw;
+  padding-right: 4vw;
+  font-size: 5vw;
 }
-
 .about ul {
-  padding: 0;
   margin: 0;
+  padding: 0;
   flex-direction: column;
   align-items: start;
 }
-
 .about .bio-items {
   width: 72vw;
   justify-content: space-between;
 }
-
 .about .bio-items ul li {
   margin: 4px 0;
   font-size: 5vw;
 }
-
 .about .bio-items ul li i {
   color: #be2626 !important;
 }
-
 .about .bio-items .value i {
-  font-size: 1em !important;
   padding-right: 10px;
+  font-size: 1em !important;
 }
 
 .skill-interest {
@@ -280,34 +260,29 @@ a li i {
   align-items: flex-start !important;
   margin-bottom: -5px;
 }
-
 .skill-interest .skill {
   flex-direction: column !important;
-  height: 35vw;
   justify-content: space-between;
   align-items: flex-start;
+  height: 35vw;
 }
-
 .skill-interest .skill ul li {
   font-size: 4.5vw;
   margin-right: 2vw;
 }
-
 .skill-interest .interest {
-  margin-top: 8vw;
   flex-direction: column !important;
   justify-content: space-evenly !important;
   align-items: flex-start;
+  margin-top: 8vw;
   height: 40vw;
 }
-
 .skill-interest .interest ul {
-  height: 100% !important;
   flex-direction: column;
   justify-content: space-evenly;
   align-items: flex-start;
+  height: 100% !important;
 }
-
 .skill-interest .interest ul li {
   font-size: 4.5vw;
 }
@@ -317,35 +292,28 @@ a li i {
   align-items: flex-start;
   clip-path: polygon(0 0, 100% 0, 100% calc(100% - 50px), calc(50% + 50px) calc(100% - 50px), 50% 100%, calc(50% - 50px) calc(100% - 50px), 0 calc(100% - 50px));
 }
-
 .experience-education h4 {
   margin: 0;
 }
-
 .experience-education .experience {
   flex-direction: column;
   align-items: flex-start;
   margin-bottom: 8vw;
 }
-
 .experience-education .experience h4 {
   font-size: 4vw;
 }
-
 .experience-education .experience span {
   font-size: 3.5vw;
 }
-
 .experience-education .education {
   flex-direction: column;
   align-items: flex-start;
   margin-bottom: 10vw;
 }
-
 .experience-education .education h4 {
   font-size: 4vw;
 }
-
 .experience-education .education span {
   font-size: 3.5vw;
 }
@@ -354,15 +322,12 @@ a li i {
   clip-path: polygon(0 0, calc(50% - 4.14px - 50px) 0, 50% 54.14px, calc(50% + 4.14px + 50px) 0, 100% 0, 100% 100%, 0 100%);
   margin-top: -40px;
 }
-
 .portfolio .portfolio-container {
   flex-direction: column;
 }
-
 .portfolio h4 {
   font-size: 4vw;
 }
-
 .portfolio p {
   font-size: 3.5vw;
 }
@@ -372,13 +337,11 @@ a li i {
   align-items: flex-start;
   margin-bottom: -5px;
 }
-
 .contact form {
   flex-direction: column;
   margin-bottom: 10vw;
   width: 100%;
 }
-
 .contact form input,
 .contact form textarea {
   width: 90%;
@@ -394,55 +357,46 @@ a li i {
   background-color: transparent;
   color: #FFFFFF;
 }
-
 .contact form input:focus,
 .contact form textarea:focus {
   border-bottom: 2px solid #be2626 !important;
   outline: none !important;
 }
-
 .contact form textarea {
   margin-bottom: 8vw;
 }
-
 .contact form button {
+  border: none;
   color: #FFFFFF;
   background-color: #be2626;
-  border: none;
   transition: all ease-in-out 0.3s;
   font-family: "playball";
 }
-
 .contact form button:hover {
   color: #be2626;
   border: none;
   background-color: #FFFFFF;
 }
-
 .contact .contact-form-container {
   flex-direction: column;
   align-items: flex-start;
   width: 100%;
 }
-
 .contact .contact-info {
   flex-direction: column;
   align-items: flex-start;
 }
-
 .contact .contact-info .mobile,
 .contact .contact-info .email,
 .contact .contact-info .address {
   flex-direction: column;
   align-items: flex-start;
 }
-
 .contact .contact-info .mobile div,
 .contact .contact-info .email div,
 .contact .contact-info .address div {
   align-items: baseline;
 }
-
 .contact .contact-info .mobile div i,
 .contact .contact-info .email div i,
 .contact .contact-info .address div i {
@@ -454,17 +408,12 @@ a li i {
   flex-direction: column;
   text-align: center;
 }
-
 .footer-container .intro-container-social-nav {
   width: 40vw;
 }
-
 .footer-container h2 {
   margin-top: 0;
 }
-
 .footer-container p {
   margin-bottom: 0;
-}
-
-/*# sourceMappingURL=main.css.map */
+}/*# sourceMappingURL=main.css.map */
