@@ -10,7 +10,7 @@ header,
 body,
 footer {
   color: #FFFFFF;
-  font-family: 'playball';
+  font-family: 'playball' !important;
 }
 
 .m-p-0 {
