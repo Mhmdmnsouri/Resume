@@ -357,6 +357,7 @@ a li i {
 .portfolio {
   clip-path: polygon(0 0, calc(50% - 4.14px - 50px) 0, 50% 54.14px, calc(50% + 4.14px + 50px) 0, 100% 0, 100% 100%, 0 100%);
   margin-top: -40px;
+  margin-bottom: -5px;
 }
 
 .portfolio .portfolio-container {
