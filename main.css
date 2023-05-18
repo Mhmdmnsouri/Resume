@@ -248,6 +248,10 @@ a li i {
   margin-bottom: 7vw;
 }
 
+.container-about-bio{
+  width: 100%;
+}
+
 .about ul {
   padding: 0;
   margin: 0;
@@ -262,7 +266,7 @@ a li i {
 
 .about .bio-items ul li {
   margin: 4px 0;
-  font-size: 5vw;
+  font-size: 4vw;
 }
 
 .about .bio-items ul li i {
@@ -289,7 +293,7 @@ a li i {
 }
 
 .skill-interest .skill ul li {
-  font-size: 4.5vw;
+  font-size: 4vw;
   margin-right: 2vw;
 }
 
@@ -309,7 +313,7 @@ a li i {
 }
 
 .skill-interest .interest ul li {
-  font-size: 4.5vw;
+  font-size: 4vw;
 }
 
 .experience-education {
